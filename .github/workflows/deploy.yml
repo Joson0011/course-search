@@ -15,12 +15,15 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
+      - name: build tool
+        run: 
+          npm install -g npm
       - name: build pkg
         run:
-          yarn install
+          npm install
       - name: build project
         run: 
-          yarn run build
+          npm run build
  
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
