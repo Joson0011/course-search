@@ -24,6 +24,6 @@ jobs:
           ls -a
  
       - name: Deploy 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          publish_dir: ./dist # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
