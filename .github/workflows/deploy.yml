@@ -9,7 +9,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
         
-      - name: Install 🔧
+      - name: Install node 🔧
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
@@ -19,6 +19,8 @@ jobs:
         run: 
           npm install -g npm
           npm install
+      - name: build
+        run: 
           npm run build
       
       - name: show dir
