@@ -18,8 +18,12 @@ jobs:
         run: 
           yarn add
           yarn run build
+      
+      - name: show dir
+        run:
+            ls -a
  
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ./dist # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
