@@ -17,13 +17,13 @@ jobs:
 
       - name: build tool
         run: 
-          npm install -g npm
+          npm install -g pnpm
       - name: build pkg
         run:
-          npm install
+          pnpm install
       - name: build project
         run: 
-          npm run build
+          pnpm run build
  
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
