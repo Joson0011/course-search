@@ -23,6 +23,9 @@ jobs:
       
       - name: show dir
         run:
+          cd ..
+      - name: show dir
+        run:
           ls -a
  
       - name: Deploy 🚀
