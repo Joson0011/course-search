@@ -35,3 +35,4 @@ Clear persistent cache local files
 ```bash
 pnpm clean
 ```
+git subtree push --prefix=dist origin gh-pages
