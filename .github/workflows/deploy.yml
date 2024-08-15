@@ -15,13 +15,10 @@ jobs:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Build production bundle
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: 
-            add
-            build # will run `yarn build:prod` command
-
+      - name: build
+        run: 
+          npm install
+          npm run build
       
       - name: show dir
         run:
