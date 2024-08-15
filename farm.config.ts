@@ -5,7 +5,7 @@ export default defineConfig({
   vitePlugins: [vue()],
   compilation: {
     output: {
-      publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn.com' : './course-search/'
+      publicPath: process.env.NODE_ENV === 'production' ? 'https://cdn.com' : './'
     }
   }
 });
