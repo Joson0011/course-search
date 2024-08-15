@@ -14,15 +14,11 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
-          
-      - name: check
-        run:
-          npm audit fix
 
-      - name: build
-        run: 
-          npm install
-          npm run build
+      - name: Build production bundle
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build:prod # will run `yarn build:prod` command
 
       
       - name: show dir
