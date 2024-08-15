@@ -18,7 +18,9 @@ jobs:
       - name: Build production bundle
         uses: borales/actions-yarn@v4
         with:
-          cmd: build # will run `yarn build:prod` command
+          cmd: 
+            add
+            build # will run `yarn build:prod` command
 
       
       - name: show dir
