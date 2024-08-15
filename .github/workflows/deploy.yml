@@ -16,7 +16,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: build
         run: 
-          yarn install
+          yarn add
           yarn run build
  
       - name: Deploy 🚀
