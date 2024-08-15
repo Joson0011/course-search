@@ -16,8 +16,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: build
         run: 
-          npm ci
-          npm run build
+          yarn install
+          yarn run build
  
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
