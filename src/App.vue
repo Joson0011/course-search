@@ -11,7 +11,7 @@ import WUSTClassSearch from './components/WUSTClassSearch.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <WUSTClassSearch msg="Hello wust student" />
+  <WUSTClassSearch msg="Hello student" />
 </template>
 
 <style scoped>

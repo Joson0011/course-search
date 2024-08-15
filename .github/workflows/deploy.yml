@@ -24,13 +24,6 @@ jobs:
       - name: build project
         run: 
           npm run build
-      
-      - name: show dir
-        run:
-          cd ..
-      - name: show dir
-        run:
-          ls -a
  
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
