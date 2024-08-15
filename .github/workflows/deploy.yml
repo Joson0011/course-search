@@ -8,11 +8,13 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
-
-      - name: Install and Build 🔧
+        
+      - name: Install 🔧
+        uses: actions/setup-node@v4
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
+      - name: build
         run: 
           npm ci
           npm run build
