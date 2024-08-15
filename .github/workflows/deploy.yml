@@ -17,7 +17,7 @@ jobs:
 
       - name: build pkg
         run:
-          yarn add
+          yarn install
       - name: build project
         run: 
           yarn run build
