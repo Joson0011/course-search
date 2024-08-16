@@ -24,7 +24,7 @@ const listCon = {
 
 <template>
 	<div :style="{
-		padding: '5px 5px'
+		padding: '5px 5px', backgroundColor: 'yellow'
 	}">
 		<van-nav-bar title="标题" fixed />
 	</div>
@@ -44,7 +44,7 @@ const listCon = {
 	</div>
 
 	<div :style="{
-		padding: '5px 5px'
+		padding: '5px 5px', backgroundColor: 'blue'
 	}">
 		<van-tabbar>
 			<van-search v-model="value" placeholder="Please insert course number or text" />
