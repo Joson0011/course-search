@@ -29,8 +29,7 @@ const listCon = {
 		<van-nav-bar title="标题" fixed />
 	</div>
 	<div :style="{
-		padding: '5px 5px', width: (windowWidth > 500 ? 500 : windowWidth) + 'px',
-		height: windowHeight - 45 + 'px', backgroundColor: 'red'
+		padding: '5px 5px', backgroundColor: 'red'
 	}">
 		<van-dropdown-menu swipe-threshold="4">
 			<van-dropdown-item v-model="value1" :options="option1" />
