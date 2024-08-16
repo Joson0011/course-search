@@ -1,4 +1,4 @@
-(function(_){for(var r in _){_[r].__farm_resource_pot__='index_9e4b.js';(globalThis || window || global)['9cc96d5e1508b45fce2fa7ddc6f6ff56'].__farm_module_system__.register(r,_[r])}})({"3c903e33":/**
+(function(_){for(var r in _){_[r].__farm_resource_pot__='index_175b.js';(globalThis || window || global)['9cc96d5e1508b45fce2fa7ddc6f6ff56'].__farm_module_system__.register(r,_[r])}})({"27c23827":function e(e,t,n,i){!function(e,t){var n=t.documentElement,i=e.devicePixelRatio||1;function d(){var e=n.clientWidth/10;n.style.fontSize=e+"px";}if(!function e(){t.body?t.body.style.fontSize=12*i+"px":t.addEventListener("DOMContentLoaded",e);}(),d(),e.addEventListener("resize",d),e.addEventListener("pageshow",function(e){e.persisted&&d();}),i>=2){var o=t.createElement("body"),a=t.createElement("div");a.style.border=".5px solid transparent",o.appendChild(a),n.appendChild(o),1===a.offsetHeight&&n.classList.add("hairlines"),n.removeChild(o);}}(window,document);},"3c903e33":/**
 * vue v3.4.37
 * (c) 2018-present Yuxi (Evan) You and Vue contributors
 * @license MIT
