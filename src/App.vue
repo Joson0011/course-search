@@ -1,32 +1,15 @@
 <script setup lang="ts">
-import WUSTClassSearch from './components/WUSTClassSearch.vue';
+import { ref } from 'vue';
+import ScheduleOnline from './components/ScheduleOnline.vue';
+import { windowHeight, windowWidth } from 'vant/lib/utils';
+
+
+const IsMobile = ref(null == navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))
+
 </script>
 
 <template>
-  <div>
-    <a href="https://farmfe.org/" target="_blank">
-      <img src="./assets/logo.png" class="logo" alt="Farm logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div :style="{ width: (IsMobile ? windowWidth : 720) + 'px', height: (IsMobile ? windowHeight : 1280) + 'px' }">
+    <ScheduleOnline msg=" test test -------" />
   </div>
-  <WUSTClassSearch msg="Hello student" />
 </template>
-
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #9f1a8faa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
