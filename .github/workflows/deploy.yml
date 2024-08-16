@@ -18,6 +18,9 @@ jobs:
       - name: build tool
         run: 
           npm install -g pnpm
+      - name: build update
+        run: 
+          pnpm update
       - name: build pkg
         run:
           pnpm install
