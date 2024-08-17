@@ -9,6 +9,7 @@
     "clean": "farm clean"
   },
   "dependencies": {
+    "@better-scroll/core": "^2.5.1",
     "amfe-flexible": "^2.2.1",
     "tdesign-mobile-vue": "^1.3.4",
     "vant": "^4.9.4",
