@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@better-scroll/core": "^2.5.1",
+    "@shene/table": "1.0.0-alpha.24",
     "amfe-flexible": "^2.2.1",
     "tdesign-mobile-vue": "^1.3.4",
     "vant": "^4.9.4",
@@ -20,7 +21,9 @@
     "@farmfe/core": "^1.3.12",
     "@vitejs/plugin-vue": "^5.1.2",
     "core-js": "^3.38.0",
-    "postcss-px-to-viewport": "^1.1.1"
+    "postcss-px-to-viewport": "^1.1.1",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-vue-components": "^0.27.4"
   },
   "description": "This template should help you start developing using Vue and TypeScript in Farm.",
   "main": "index.js",
